@@ -4,8 +4,8 @@ import cursor from "../img/motionarteffect-img5.png";
 const Cursor = () => {
   return (
     <div className="container my-5">
-      <div className="row justify-content-center ">
-        <div className="col-10 col-sm-10 col-md-8">
+      <div className="row justify-content-between">
+        <div className="col-12 col-sm-12 col-md-7">
           <div className="d-flex flex-column ">
             <h2 className="text-white cursor-text">
               Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors
@@ -20,7 +20,7 @@ const Cursor = () => {
             </button>
           </div>
         </div>
-        <div className="col-10 col-sm-10 col-md-4">
+        <div className="col-12 col-sm-12 col-md-4 img-carrier-col">
           <img src={cursor} className="img-fluid" />
         </div>
       </div>
