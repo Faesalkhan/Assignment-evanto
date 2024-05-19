@@ -11,11 +11,11 @@ const Attract = () => {
           </button>
         </div>
       </div>
-      <div className="row justify-content-evenly  py-5">
-        <div className="col-10 col-sm-10 col-md-2 ">
-          <p className="gradient-text fs-4">
+      <div className="row justify-content-evenly py-5">
+        <div className="col-10 col-sm-10 col-md-2 transform-col">
+          <span className="gradient-text fs-4 transform-text">
             Transform <span className="text-nowrap">Your Website</span>
-          </p>
+          </span>
           <p className="text-white fs-4">With Motion Art Effect</p>
         </div>
         <div className="col-10 col-sm-10 col-md-7">
