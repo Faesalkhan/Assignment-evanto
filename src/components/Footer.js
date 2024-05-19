@@ -13,7 +13,7 @@ const Footer = () => {
           </button>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 ">
-          <p className="text-white text-center m-0">
+          <p className="text-white copyright-text m-0">
             © 2023 Copywrite. All rights reserved by QodeMatrix
           </p>
         </div>
