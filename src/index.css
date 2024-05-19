@@ -55,6 +55,37 @@
   width: 170px;
   height: 170px;
 }
+
+
+/* MousePointer.css */
+.mouse-pointer {
+  width: 10px;
+  height: 10px;
+  background-color: red; /* Inner pointer color */
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+.mouse-follower {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255, 0, 0, 0.574);
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+}
+
+
+
 @media screen and (max-width:991px) {
   .body-text{
     font-size: 60px;
@@ -74,6 +105,12 @@
   }
   .footercolumn{
     justify-content: center;
+  }
+  .copyright-text{
+    text-align: center;
+  }
+  .trust-row{
+    justify-content: space-evenly;
   }
 }
 @media screen and (max-width:768px) {
@@ -97,6 +134,21 @@
     width: 250px;
     font-size: 20px;
     padding: 15px 15px;
+  }
+  .purchase-from-evanto-btn{
+    align-self: center;
+  }
+  .img-carrier-col{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .applogocolumn{
+    display: flex;
+    justify-content: center;
+  }
+  .transform-col{
+    text-align: center;
   }
 }
 @media screen and (max-width:450px) {
@@ -138,5 +190,14 @@
   }
   .footercolumn{
     justify-content: end;
+  }
+  .img-carrier-col{
+    text-align: end;
+  }
+  .transform-col{
+    margin-left: -100px;
+  }
+  .trust-row{
+    justify-content: space-between;
   }
 }
